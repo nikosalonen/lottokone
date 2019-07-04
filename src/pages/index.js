@@ -21,7 +21,6 @@ while (numbers[lastRow].length < 7) {
   }
 }
 numbers = map(numbers, row => row.sort((a, b) => a - b));
-console.log(numbers);
 const IndexPage = () => (
   <Layout>
     <SEO title="Lottokone" keywords={['lotto', 'voitto', 'lottokone']} />
