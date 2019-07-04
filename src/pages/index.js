@@ -11,7 +11,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 
-const numbers = chunk(shuffle(map(Array(40), (e, i) => i + 1)), 7);
+let numbers = chunk(shuffle(map(Array(40), (e, i) => i + 1)), 7);
 
 const lastRow = findLastIndex(numbers);
 while (numbers[lastRow].length < 7) {
@@ -20,13 +20,14 @@ while (numbers[lastRow].length < 7) {
     numbers[lastRow].push(num);
   }
 }
-
+numbers = map(numbers, row => row.sort((a, b) => a - b));
+console.log(numbers);
 const IndexPage = () => (
   <Layout>
-    <SEO title="Lottokone" keywords={['lotto', 'voitto', 'kone']} />
+    <SEO title="Lottokone" keywords={['lotto', 'voitto', 'lottokone']} />
     <h1>Lottokone</h1>
     <p>Voittorivisi on:</p>
-    <div id="rowContainer" dangerouslySetInnerHTML={{ __html: map(numbers, row => row.sort((a, b) => a - b)).map(r => `<span class="row">${r}</span>`) }} />
+    <div id="rowContainer" dangerouslySetInnerHTML={{ __html: map(numbers, row => `<span class="row">${row}</span>`).join('') }} />
 
 
   </Layout>
