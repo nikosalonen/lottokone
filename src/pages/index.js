@@ -25,11 +25,8 @@ console.log(numbers);
 const IndexPage = () => (
   <Layout>
     <SEO title="Lottokone" keywords={['lotto', 'voitto', 'lottokone']} />
-    <h1>Lottokone</h1>
     <p>Voittorivisi on:</p>
     <div id="rowContainer" dangerouslySetInnerHTML={{ __html: map(numbers, row => `<span class="row">${row}</span>`).join('') }} />
-
-
   </Layout>
 );
 
