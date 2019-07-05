@@ -629,6 +629,14 @@ pre tt:after {
   align-items: center;
   align-content: space-around;
 }
+.sharerow {
+  margin: 30px 0;
+  justify-content: space-evenly;
+}
+.share {
+  justify-content: space-evenly;
+  justify-items: center;
+}
 .row > .number {
   font-family: "Roboto";
   display: flex;
