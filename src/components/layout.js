@@ -50,6 +50,9 @@ Gatsby
 by
             {' '}
             <a href="https://www.twitter.com/nikosalonen">{data.site.siteMetadata.author}</a>
+. Site source code can be found from
+            {' '}
+            <a href="https://github.com/nikosalonen/lottokone">GitHub</a>
           </footer>
         </div>
       </>
