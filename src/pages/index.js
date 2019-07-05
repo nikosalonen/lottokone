@@ -11,8 +11,7 @@ const IndexPage = () => (
     <SEO title="Lottokone" keywords={['lotto', 'voitto', 'lottokone']} />
     <p>
       Suurin todennäköisyys voittaa lotossa on varmistamalla, että kaikki numerot esiintyvät
-      tositteella.
-
+      vähintään kerran.
     </p>
     <p>
       Tätä voi ajatella kuin hedelmäpeliä. Tarvitsee vain odotella, että numerot
