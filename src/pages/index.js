@@ -21,11 +21,28 @@ while (numbers[lastRow].length < 7) {
   }
 }
 numbers = map(numbers, row => row.sort((a, b) => a - b));
+const balls = map(numbers, (row, i) => `<span class="row">Rivi ${i + 1}:  ${map(row, num => `<span class="number">${num}</span>`).join('')}</span>`).join('');
 const IndexPage = () => (
   <Layout>
     <SEO title="Lottokone" keywords={['lotto', 'voitto', 'lottokone']} />
-    <p>Voittorivisi on:</p>
-    <div id="rowContainer" dangerouslySetInnerHTML={{ __html: map(numbers, row => `<span class="row">${row}</span>`).join('') }} />
+    <p>
+      Suurin todennäköisyys voittaa lotossa on varmistaa, että kaikki numerot esiintyvät
+      tositteella.
+
+    </p>
+    <p>
+      Tätä voi ajatella kuin hedelmäpeliä. Tarvitsee vain odotella, että numerot
+      loksahtavat oikeaan järjestykseen riville.
+    </p>
+    <p>
+Koska 40 ei ole jaollinen seitsemällä, lisätään viimeiseen riviin kolme satunnaista numeroa. Eikö
+      numerot miellytä? Lataa sivu uudelleen!
+    </p>
+    <p>
+Voittorivisi on:
+
+    </p>
+    <div id="rowContainer" dangerouslySetInnerHTML={{ __html: balls }} />
   </Layout>
 );
 
