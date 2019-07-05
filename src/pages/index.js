@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Lottokone" keywords={['lotto', 'voitto', 'lottokone']} />
     <p>
-      Suurin todennäköisyys voittaa lotossa on varmistaa, että kaikki numerot esiintyvät
+      Suurin todennäköisyys voittaa lotossa on varmistamalla, että kaikki numerot esiintyvät
       tositteella.
 
     </p>
