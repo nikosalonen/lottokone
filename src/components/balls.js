@@ -7,7 +7,7 @@ import shuffle from 'lodash/shuffle';
 import includes from 'lodash/includes';
 
 const getBalls = () => {
-  if (window && window.ga) {
+  if (typeof window !== 'undefined' && window.ga) {
     window.ga('send', 'event', 'Balls', 'Shuffle');
   }
   let numbers = chunk(shuffle(map(Array(40), (e, i) => i + 1)), 7);
