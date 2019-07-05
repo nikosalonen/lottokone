@@ -47,7 +47,7 @@ Gatsby by
 
             </a>
             {' '}
-            {data.site.siteMetadata.author}
+            <a href="https://www.twitter.com/nikosalonen">{data.site.siteMetadata.author}</a>
           </footer>
         </div>
       </>
