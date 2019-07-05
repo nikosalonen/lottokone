@@ -8,7 +8,7 @@ import Balls from '../components/balls';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Lottokone" keywords={['lotto', 'voitto', 'lottokone']} />
+    <SEO title="Lottokone" keywords={['lotto', 'voitto', 'lottokone', 'lottonumerot']} />
     <p>
       Suurin todennäköisyys voittaa lotossa on varmistamalla, että kaikki numerot esiintyvät
       vähintään kerran.
