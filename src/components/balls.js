@@ -6,6 +6,15 @@ import map from 'lodash/map';
 import shuffle from 'lodash/shuffle';
 import includes from 'lodash/includes';
 
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  TelegramShareButton,
+  WhatsappShareButton,
+
+} from 'react-share';
+
+
 const getBalls = () => {
   if (typeof window !== 'undefined' && window.ga) {
     window.ga('send', 'event', 'Balls', 'Shuffle');
@@ -31,6 +40,10 @@ const Balls = () => {
 
       <div id="rowContainer" dangerouslySetInnerHTML={{ __html: balls }} />
 
+      <FacebookShareButton url="https://lottokone.fi?utm_source=facebook&utm_medium=share_buttons&utm_campaign=siteshare" />
+      <TwitterShareButton url="https://lottokone.fi?utm_source=twitter&utm_medium=share_buttons&utm_campaign=siteshare" />
+      <TelegramShareButton url="https://lottokone.fi?utm_source=telegram&utm_medium=share_buttons&utm_campaign=siteshare" />
+      <WhatsappShareButton url="https://lottokone.fi?utm_source=whatsapp&utm_medium=share_buttons&utm_campaign=siteshare" />
     </>
   );
 };
