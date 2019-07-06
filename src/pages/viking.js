@@ -17,6 +17,10 @@ const Vikinglotto = () => (
       {' '}
       <Link to="/ejp">Eurojackpot</Link>
       {' '}
+      on parempi vaihtoehto. Todennäköisyyksien valossa
+      {' '}
+      <Link to="/">Lotto</Link>
+      {' '}
       on parempi vaihtoehto.
     </p>
     <Balls pick={6} nums={48} />

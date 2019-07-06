@@ -15,6 +15,15 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://lottokone.fi',
+        sitemap: 'https://lottokone.fi/sitemap.xml',
+        configFile: 'robots-txt.config.js',
+      },
+    },
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
@@ -25,10 +34,16 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-canonical-urls',
+      options: {
+        siteUrl: 'https://lottokone.fi',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Lottokone',
+        short_name: 'Lottokone',
         start_url: '/',
         background_color: '#fdb718',
         theme_color: '#fdb718',
