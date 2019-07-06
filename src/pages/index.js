@@ -4,6 +4,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Balls from '../components/balls';
+import Share from '../components/share';
 
 
 const IndexPage = () => (
@@ -26,6 +27,7 @@ Voittorivisi on:
 
     </p>
     <Balls pick={7} nums={40} />
+    <Share />
   </Layout>
 );
 
