@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import chunk from 'lodash/chunk';
 import random from 'lodash/random';
 import findLastIndex from 'lodash/findLastIndex';
@@ -35,5 +36,10 @@ const Balls = (props) => {
 
     </>
   );
+};
+
+Balls.propTypes = {
+  pick: PropTypes.number.isRequired,
+  nums: PropTypes.number.isRequired,
 };
 export default Balls;
