@@ -12,7 +12,7 @@ const getBalls = (pick, nums) => {
   if (typeof window !== 'undefined' && window.ga) {
     window.ga('send', 'event', 'Balls', 'Shuffle');
   }
-  let numbers = chunk(shuffle(map(Array(nums), (e, i) => i + 1)), 7);
+  let numbers = chunk(shuffle(map(Array(nums), (e, i) => i + 1)), pick);
 
   const lastRow = findLastIndex(numbers);
   while (numbers[lastRow].length < pick) {
