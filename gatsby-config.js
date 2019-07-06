@@ -3,6 +3,7 @@ module.exports = {
     title: 'Lottokone',
     description: 'Generoi itsellesi lottonumerot. Varma voitto!',
     author: '@nikosalonen',
+    siteUrl: 'https://lottokone.fi',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,13 +16,13 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-sitemap',
+    { resolve: 'gatsby-plugin-sitemap' },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://lottokone.fi',
         sitemap: 'https://lottokone.fi/sitemap.xml',
-        configFile: 'robots-txt.config.js',
+        policy: [{ userAgent: '*', allow: '/' }],
       },
     },
     {
