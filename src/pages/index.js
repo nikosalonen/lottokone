@@ -25,7 +25,7 @@ Koska 40 ei ole jaollinen seitsemällä, lisätään viimeiseen riviin kolme sat
 Voittorivisi on:
 
     </p>
-    <Balls />
+    <Balls pick={7} nums={40} />
   </Layout>
 );
 
