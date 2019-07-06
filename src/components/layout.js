@@ -40,17 +40,16 @@ const Layout = ({ children }) => (
             ©
             {' '}
             {new Date().getFullYear()}
-, Built with
+            , Built with
             {' '}
             <a href="https://www.gatsbyjs.org">
-Gatsby
-
+              Gatsby
             </a>
             {' '}
-by
+            by
             {' '}
             <a href="https://www.twitter.com/nikosalonen">{data.site.siteMetadata.author}</a>
-. Site source code can be found from
+            . Site source code can be found from
             {' '}
             <a href="https://github.com/nikosalonen/lottokone">GitHub</a>
           </footer>
