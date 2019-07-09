@@ -80,44 +80,36 @@ const IndexPage = () => (
       <thead>
         <tr>
           <th>Voittoluokka</th>
-          <th>Todennäköisyys</th>
           <th>Täytettäviä ruudukoita</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>7 oikein</td>
-          <td>1/18 643 560</td>
           <td>18 643 560</td>
         </tr>
         <tr>
           <td>6+1 oikein</td>
-          <td>7/18 643 560</td>
           <td>noin 2 663 366</td>
         </tr>
         <tr>
           <td>6 oikein</td>
-          <td>231/18 643 560</td>
           <td>noin 80 708</td>
         </tr>
         <tr>
           <td>5 oikein</td>
-          <td>11 088/18 643 560</td>
           <td>noin 1 681</td>
         </tr>
         <tr>
           <td>4 oikein</td>
-          <td>190 960/18 643 560</td>
           <td>noin 98</td>
         </tr>
         <tr>
           <td>3+1 oikein</td>
-          <td>173 600/18 643 560</td>
           <td>noin 107</td>
         </tr>
         <tr>
           <td>3 oikein</td>
-          <td>1 432 200/18 643 560</td>
           <td>noin 13</td>
         </tr>
       </tbody>
