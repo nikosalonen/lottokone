@@ -5,21 +5,21 @@
   "version": "0.1.0",
   "author": "Niko Salonen <nikotsalonen@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.13.9",
-    "gatsby-image": "^2.2.4",
-    "gatsby-plugin-canonical-urls": "^2.1.0",
-    "gatsby-plugin-google-analytics": "^2.1.1",
+    "gatsby": "^2.13.19",
+    "gatsby-image": "^2.2.6",
+    "gatsby-plugin-canonical-urls": "^2.1.2",
+    "gatsby-plugin-google-analytics": "^2.1.4",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-manifest": "^2.2.1",
-    "gatsby-plugin-netlify": "^2.1.0",
-    "gatsby-plugin-offline": "^2.2.1",
-    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-manifest": "^2.2.3",
+    "gatsby-plugin-netlify": "^2.1.2",
+    "gatsby-plugin-offline": "^2.2.3",
+    "gatsby-plugin-react-helmet": "^3.1.2",
     "gatsby-plugin-robots-txt": "^1.5.0",
-    "gatsby-plugin-sharp": "^2.2.3",
-    "gatsby-plugin-sitemap": "^2.2.1",
-    "gatsby-source-filesystem": "^2.1.2",
-    "gatsby-transformer-sharp": "^2.2.1",
-    "lodash": "^4.17.11",
+    "gatsby-plugin-sharp": "^2.2.6",
+    "gatsby-plugin-sitemap": "^2.2.3",
+    "gatsby-source-filesystem": "^2.1.5",
+    "gatsby-transformer-sharp": "^2.2.3",
+    "lodash": "^4.17.14",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -35,7 +35,7 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "lotto"
   ],
   "license": "MIT",
   "scripts": {
@@ -48,9 +48,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/nikosalonen/lottokone"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/nikosalonen/lottokone/issues"
   }
 }
