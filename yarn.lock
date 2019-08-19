@@ -5074,15 +5074,15 @@ gatsby-plugin-manifest@^2.2.3:
     semver "^5.6.0"
     sharp "^0.22.1"
 
-gatsby-plugin-netlify@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.1.2.tgz#4c8a854fdb009c8450355d54becc514e7737eb5e"
-  integrity sha512-9ANZYaU/ODDPg5SxfXn1+d4qO6HCRfyMXRj87ehq1DyMQ5jncLTdEDHz8T/uyZTnzQ+ojbmrFf/rDFuQbCOHHQ==
+gatsby-plugin-netlify@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.1.5.tgz#c6780e706adda40577d2b89bec8b6c5c7cfb7a3c"
+  integrity sha512-3lZwKE33HVqSqQC5Mr3oovruGOFq70RWnFlZORCggaVH83nS2lhNLMsCPa1Zg4I1kQddWv+8qdQFDxrIyA+1/g==
   dependencies:
     "@babel/runtime" "^7.0.0"
     fs-extra "^4.0.2"
     kebab-hash "^0.1.2"
-    lodash "^4.17.10"
+    lodash "^4.17.14"
     webpack-assets-manifest "^3.0.2"
 
 gatsby-plugin-offline@^2.2.3:
@@ -7223,7 +7223,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
