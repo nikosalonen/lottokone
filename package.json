@@ -7,7 +7,7 @@
   "dependencies": {
     "gatsby": "^2.13.77",
     "gatsby-image": "^2.2.14",
-    "gatsby-plugin-canonical-urls": "^2.1.4",
+    "gatsby-plugin-canonical-urls": "^2.1.5",
     "gatsby-plugin-google-analytics": "^2.1.11",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "^2.2.8",
