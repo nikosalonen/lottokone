@@ -25,10 +25,10 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Ads client={`ca-pub-0748442567853482`} slot={`2885752671`} />
+        <Ads client="ca-pub-0748442567853482" slot="2885752671" />
         <div
           style={{
             margin: '0 auto',
