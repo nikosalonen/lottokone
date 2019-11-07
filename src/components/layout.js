@@ -9,6 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 
+import Ads from './ads';
 import Header from './header';
 import './layout.css';
 
@@ -27,6 +28,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
+        <Ads client={`ca-pub-0748442567853482`} slot={`2885752671`} />
         <div
           style={{
             margin: '0 auto',
